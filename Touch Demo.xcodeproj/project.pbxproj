@@ -13,6 +13,7 @@
 		CA6D84861B8EBE8200F5C256 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6D84851B8EBE8200F5C256 /* Images.xcassets */; };
 		CA6D84891B8EBE8200F5C256 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA6D84871B8EBE8200F5C256 /* LaunchScreen.xib */; };
 		CA6D84951B8EBE8200F5C256 /* Touch_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6D84941B8EBE8200F5C256 /* Touch_DemoTests.swift */; };
+		CA6D849F1B8ECC2C00F5C256 /* EditNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6D849E1B8ECC2C00F5C256 /* EditNoteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		CA6D848E1B8EBE8200F5C256 /* Touch DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Touch DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA6D84931B8EBE8200F5C256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA6D84941B8EBE8200F5C256 /* Touch_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Touch_DemoTests.swift; sourceTree = "<group>"; };
+		CA6D849E1B8ECC2C00F5C256 /* EditNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditNoteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				CA6D847E1B8EBE8200F5C256 /* AppDelegate.swift */,
 				CA6D84801B8EBE8200F5C256 /* ViewController.swift */,
+				CA6D849E1B8ECC2C00F5C256 /* EditNoteViewController.swift */,
 				CA6D84821B8EBE8200F5C256 /* Main.storyboard */,
 				CA6D84851B8EBE8200F5C256 /* Images.xcassets */,
 				CA6D84871B8EBE8200F5C256 /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA6D84811B8EBE8200F5C256 /* ViewController.swift in Sources */,
+				CA6D849F1B8ECC2C00F5C256 /* EditNoteViewController.swift in Sources */,
 				CA6D847F1B8EBE8200F5C256 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,6 +349,7 @@
 				INFOPLIST_FILE = "Touch Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -355,6 +360,7 @@
 				INFOPLIST_FILE = "Touch Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
